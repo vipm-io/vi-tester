@@ -8,7 +8,7 @@ About VI Tester
 ---------------
 VI Tester is a software test framework for LabVIEW that allows software developers to test their LabVIEW code (VIs). Software testing is a critical component of [Agile development](http://en.wikipedia.org/wiki/Agile_software_development) & [Test Driven development](http://en.wikipedia.org/wiki/Test-driven_development) processes and is also critical for validating software functionality. VI Tester is based on the industry standard [xUnit](http://en.wikipedia.org/wiki/XUnit) software test architecture that is used in many other programming languages -- this architecture is very flexible and powerful, but also very easy for beginners to learn.
 
-Important: VI Tester is not a tool for testing hardware -- use [NI TestStand](http://www.ni.com/teststand/) for that.
+*Important: VI Tester is not a tool for testing hardware -- use [NI TestStand](http://www.ni.com/teststand/) for that.*
 
 The VI Tester framework is composed of three parts:
 
