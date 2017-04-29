@@ -18,7 +18,7 @@ The VI Tester framework is composed of three parts:
 
 Useful Links:
 
-- [Downloading and Installing VI Tester](http://forums.jkisoft.com/index.php?showtopic=967)
+- [Download VI Tester](https://vipm.jki.net/package/jki_labs_tool_vi_tester)
 - [VI Tester Release Notes](http://forums.jkisoft.com/index.php?showtopic=1024)
 - [Getting Started Guide](http://forums.jkisoft.com/index.php?showtopic=965)
 - [Support Forums](http://forums.jkisoft.com/index.php?showforum=51)
