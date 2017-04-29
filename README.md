@@ -21,7 +21,7 @@ Useful Links:
 - [Download VI Tester](https://vipm.jki.net/package/jki_labs_tool_vi_tester)
 - [VI Tester Release Notes](http://forums.jkisoft.com/index.php?showtopic=1024)
 - [Getting Started Guide](http://forums.jkisoft.com/index.php?showtopic=965)
-- [Support Forums](http://forums.jkisoft.com/index.php?showforum=51)
+- [Submit a Bug / Request a Feature](https://github.com/JKISoftware/JKI-VI-Tester/issues)
 - [FAQ](http://forums.jkisoft.com/index.php?showtopic=968)
 - [Roadmap](http://forums.jkisoft.com/index.php?showtopic=986%22)
 - [System Requirements](http://forums.jkisoft.com/index.php?showtopic=1000)
