@@ -1,0 +1,66 @@
+[General]
+File Format Version=1.0.2
+Project Root=..
+Source Root=Examples
+Build Root=Built/Examples
+Namespace=""
+Overwrite Existing Files=TRUE
+Log Dir=""
+Log File=""
+Log File Suffix=""
+Include Help Files=FALSE
+Help File Dir=""
+Include Shared Libs=FALSE
+Shared Lib Dir=""
+Include External Subrs=FALSE
+External Subr Dir=""
+Include Hidden VIs=TRUE
+EXE Icon File=""
+New Build Root=TRUE
+Unsaved Changes MsgBox=FALSE
+Ambiguous VIs Dest Dir=""
+Call Pre-Build VI=""
+Call Post-Build VI=""
+Revision File=""
+Version VI Name=""
+Version Ctrl Name=""
+Apply New Password=""
+RemovePolyVIsAndTypedefs=FALSE
+Allow CBVI & Build Hierarchy Overlap=FALSE
+Namespace Convention=0
+EXE App Flags=4
+EXE LVRT Res Flags=0
+
+[Top Level VIs]
+
+[Dynamic VIs]
+
+[Exclude Lib Dirs from Build]
+
+[Destination 1]
+Source Dir="../Build Support"
+Target Dir=MyApplication
+Convert Target to LLB=FALSE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=TRUE
+Apply New Password=""
+Namespace=""
+Debug Level=0
+
+[SupportFiles 1]
+TargetDir=""
+OverwriteExisting=TRUE
+FollowVIDirHierarchy=FALSE
+Recursive=TRUE
+Exclude=FALSE
+SourceFile 1=*.*
+
+[SupportFiles 2]
+TargetDir=""
+OverwriteExisting=TRUE
+FollowVIDirHierarchy=FALSE
+Recursive=TRUE
+Exclude=TRUE
+SourceFile 1=.svn
+

@@ -1,0 +1,68 @@
+[General]
+File Format Version=1.0.2
+Project Root=..
+Source Root=Source
+Build Root="Built/Menu Launch - New Test Suite"
+Namespace=<random:32>
+Overwrite Existing Files=TRUE
+Log Dir=""
+Log File=""
+Log File Suffix=""
+Include Help Files=FALSE
+Help File Dir=""
+Include Shared Libs=FALSE
+Shared Lib Dir=""
+Include External Subrs=FALSE
+External Subr Dir=""
+Include Hidden VIs=TRUE
+EXE Icon File=""
+New Build Root=TRUE
+Unsaved Changes MsgBox=FALSE
+Ambiguous VIs Dest Dir=""
+Call Pre-Build VI=""
+Call Post-Build VI=""
+Revision File=""
+Version VI Name=""
+Version Ctrl Name=""
+Apply New Password=""
+RemovePolyVIsAndTypedefs=FALSE
+Allow CBVI & Build Hierarchy Overlap=FALSE
+Namespace Convention=0
+EXE App Flags=4
+EXE LVRT Res Flags=0
+
+[Top Level VIs]
+VI 1=../Menu Launch/New Test Suite.vi
+
+[Dynamic VIs]
+
+[Exclude Lib Dirs from Build]
+LibDir 1=<vi.lib>
+
+[Destination 1]
+Source Dir=""
+Target Dir=NewTestSuite.llb
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=TRUE
+Apply New Password=""
+Namespace=""
+Debug Level=0
+
+[Destination 2]
+Source Dir=<vi.lib>/addons
+Target Dir=NewTestSuite.llb
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace=""
+Debug Level=0
+
+[VI Property - New Test Suite.vi]
+Save Level=0
+FP.Title=Test Suite
+Exec.RunOnOpen=True
+

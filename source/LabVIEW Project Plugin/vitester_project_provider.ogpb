@@ -1,0 +1,46 @@
+[Package Name]
+Name=jki_rsc_vi_tester_project_integration
+Version=0.1.19
+Release=1
+
+[Description]
+Description="This package provides LabVIEW Project Environment integration for VI Tester.  For internal and consulting services use only.\0A\0A-= Release Notes =-\0A[NEW] Initial release.\0A[NEW] Added Toolbar button "Open VI Tester."\0A[NEW] Added Toolbar button "Run All Tests."\0A[NEW] Added Toolbar button "Add New TestCase."\0A[NEW] Added Toolbar button "Add New TestSuite.""
+Summary="VI Tester LabVIEW Project Environment Integration"
+License="JKI License"
+Copyright="Copyright © 2017 James Kring, Inc. All rights reserved."
+Distribution=""
+Icon=<resource>/Framework/Providers/vitester-src/icon.bmp
+Version=0.0.2
+URL=""
+Packager="JKI"
+
+[Platform]
+Exclusive_LabVIEW_Version=>=8.2
+Exclusive_LabVIEW_System=ALL
+Exclusive_OS="Windows NT"
+
+[Script VIs]
+Source Dir=<resource>/Framework/Providers/vitester-src
+PreInstall=""
+PostInstall=""
+PreUninstall=""
+PostUninstall=""
+Version=0.0.2
+PreBuild=""
+PostBuild=""
+
+[Dependencies]
+AutoReqProv=FALSE
+Requires=jki_labs_tool_vi_tester>=1.0.0.102
+Conflicts=""
+
+[Files]
+Num File Groups=1
+
+[File Group 0]
+Source Dir=<resource>/Framework/Providers/vitester-built
+Target Dir=<resource>/Framework/Providers/vitester
+Replace Mode=Always
+Num Files=1
+File 0=*.*
+

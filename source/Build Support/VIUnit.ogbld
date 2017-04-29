@@ -1,0 +1,266 @@
+[General]
+File Format Version="1.0.2"
+Project Root=".."
+Source Root=""
+Build Root="Built/LLBs"
+Namespace="jki_vi_tester"
+Overwrite Existing Files=TRUE    
+Log Dir=""
+Log File=""
+Log File Suffix=""
+Include Help Files=FALSE    
+Help File Dir=""
+Include Shared Libs=FALSE    
+Shared Lib Dir=""
+Include External Subrs=FALSE    
+External Subr Dir=""
+Include Hidden VIs=TRUE    
+EXE Icon File=""
+New Build Root=TRUE    
+Unsaved Changes MsgBox=FALSE    
+Ambiguous VIs Dest Dir=""
+Call Pre-Build VI=""
+Call Post-Build VI=""
+Revision File="Build Support/build_revisions.ini"
+Version VI Name="GraphicalTestRunner.lvlib:Graphical Test Runner - Get Version.vi"
+Version Ctrl Name="Version Info"
+Apply New Password=""
+RemovePolyVIsAndTypedefs=FALSE    
+Allow CBVI & Build Hierarchy Overlap=TRUE    
+Namespace Convention=0    
+EXE App Flags=4    
+EXE LVRT Res Flags=0
+
+
+[Top Level VIs]
+VI 1="User Interfaces/Graphical Test Runner/Graphical Test Runner - Main UI - .vi"
+
+
+[Dynamic VIs]
+DynVI 1="VIUnit - VI Tree.vi"
+
+
+[Exclude Lib Dirs from Build]
+LibDir 1="<vi.lib>"
+
+
+[Destination 1]
+Source Dir=""
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/_support/Support.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=TRUE
+Apply New Password=""
+Namespace=""
+Debug Level=0
+
+
+[Destination 2]
+Source Dir="User Interfaces/Graphical Test Runner"
+Target Dir="resource/JKI/VI Tester/GraphicalTestRunner.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace="<none>"
+Debug Level=0
+
+
+[Destination 3]
+Source Dir="Templates"
+Target Dir="resource/JKI/VI Tester/Templates/<KeepHierarchy>"
+Convert Target to LLB=FALSE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password="<none>"
+Namespace="<none>"
+Debug Level=0
+
+
+[Destination 4]
+Source Dir="<vi.lib>/addons/_JKI Toolkits"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/_support/Support.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace=""
+Debug Level=0
+
+
+[Destination 5]
+Source Dir="<vi.lib>/addons/_JKI.lib"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/_support/Support.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace=""
+Debug Level=0
+
+
+[Destination 6]
+Source Dir="Programmatic API"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/VI Tester API.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace="<none>"
+Debug Level=0
+
+
+[Destination 7]
+Source Dir="Project API"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/VI Tester Project API.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace="<none>"
+Debug Level=0
+
+
+[Destination 8]
+Source Dir="<user.lib>/_JKI Toolkits"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/_support/Support.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace=""
+Debug Level=0
+
+
+[Destination 9]
+Source Dir="<user.lib>/_JKI.lib"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/_support/Support.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace=""
+Debug Level=0
+
+
+[Destination 10]
+Source Dir="<user.lib>/_OpenG.lib"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/_support/Support.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace=""
+Debug Level=0
+
+
+[Destination 11]
+Source Dir="Classes/TestRunner"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/TestRunner.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace="<none>"
+Debug Level=0
+
+
+[Destination 12]
+Source Dir="Classes/TextTestRunner"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/TextTestRunner.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace="<none>"
+Debug Level=0
+
+
+[Destination 13]
+Source Dir="Classes/TestSuite"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/TestSuite.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace="<none>"
+Debug Level=0
+
+
+[Destination 14]
+Source Dir="Classes/TestResult"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/TestResult.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace="<none>"
+Debug Level=0
+
+
+[Destination 15]
+Source Dir="Classes/TestLoader"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/TestLoader.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace="<none>"
+Debug Level=0
+
+
+[Destination 16]
+Source Dir="Classes/_TextTestResult"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/_TextTestResult.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace="<none>"
+Debug Level=0
+
+
+[Destination 17]
+Source Dir="Classes/TestCase"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/TestCase.llb"
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace="<none>"
+Debug Level=0
+
+
+[Destination 18]
+Source Dir="Libraries/VITesterUtilities.lvlib"
+Target Dir="vi.lib/addons/_JKI Toolkits/VI Tester/_support"
+Convert Target to LLB=FALSE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password="<none>"
+Namespace="<none>"
+Debug Level=0
+
+
+[VI Property - Graphical Test Runner - Main UI - .vi]
+Save Level=-1
+FP.Title="VI Tester"
+Exec.RunOnOpen="True"

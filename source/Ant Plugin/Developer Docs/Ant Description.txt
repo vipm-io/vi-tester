@@ -1,0 +1,1 @@
+Use TextTestRunner.Ant with the VI Tester API to generate XML files that are compatible with Ant's JUnit xml report format.  AntPlugin Example.vi shows how to use the plugin.

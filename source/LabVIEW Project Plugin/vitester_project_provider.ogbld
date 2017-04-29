@@ -1,0 +1,84 @@
+[General]
+File Format Version=1.0.2
+Project Root=<application>
+Source Root=<resource>/Framework/Providers/vitester-src
+Build Root=<resource>/Framework/Providers/vitester-built
+Namespace=VITester
+Overwrite Existing Files=TRUE
+Log Dir=<resource>/Framework/Providers/vitester-src
+Log File=""
+Log File Suffix=""
+Include Help Files=FALSE
+Help File Dir="<resource>/Framework/Providers/VIPM (built)"
+Include Shared Libs=TRUE
+Shared Lib Dir=<resource>/Framework/Providers/vitester-built
+Include External Subrs=FALSE
+External Subr Dir="<resource>/Framework/Providers/VIPM (built)"
+Include Hidden VIs=TRUE
+EXE Icon File=""
+New Build Root=FALSE
+Unsaved Changes MsgBox=FALSE
+Ambiguous VIs Dest Dir=""
+Call Pre-Build VI=""
+Call Post-Build VI=""
+Revision File=""
+Version VI Name=""
+Version Ctrl Name=""
+Apply New Password=""
+RemovePolyVIsAndTypedefs=TRUE
+Allow CBVI & Build Hierarchy Overlap=TRUE
+Namespace Convention=2
+EXE App Flags=4
+EXE LVRT Res Flags=0
+
+[Top Level VIs]
+VI 1="<resource>/Framework/Providers/vitester-src/VITester - VI Tree.vi"
+
+[Dynamic VIs]
+
+[Exclude Lib Dirs from Build]
+LibDir 1=<vi.lib>
+LibDir 2=<resource>
+
+[Destination 1]
+Source Dir=<resource>/Framework/Providers/vitester-src
+Target Dir=<resource>/Framework/Providers/vitester-built
+Convert Target to LLB=FALSE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=TRUE
+Apply New Password=""
+Namespace=<none>
+Debug Level=0
+
+[Destination 2]
+Source Dir=<user.lib>/_OpenG.lib
+Target Dir=<resource>/Framework/Providers/vitester-built/OpenG.llb
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace=""
+Debug Level=0
+
+[Destination 3]
+Source Dir=<resource>/Framework/Providers/vitester-src/Support
+Target Dir=<resource>/Framework/Providers/vitester-built/support.llb
+Convert Target to LLB=TRUE
+Convert Target to EXE=FALSE
+Save Level=0
+Default Destination=FALSE
+Apply New Password=""
+Namespace=<none>
+Debug Level=0
+
+[SupportFiles 1]
+TargetDir=<resource>/Framework/Providers/vitester-built
+OverwriteExisting=TRUE
+FollowVIDirHierarchy=FALSE
+Recursive=FALSE
+Exclude=FALSE
+SourceFile 1=<resource>/Framework/Providers/vitester-src/*.png
+SourceFile 2="<resource>/Framework/Providers/vitester-src/Nuvola Icon License.txt"
+

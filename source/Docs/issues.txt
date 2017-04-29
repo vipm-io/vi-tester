@@ -1,0 +1,34 @@
+* In PyUnit, test failures are achieved by raising a failureException that includes a message.  We need a mechanism to signal a failure.  Using the error cluster is ideal, since this will cause any downstream operations in a TestCase to not execute (assuming that they observe the error cluster status).  Perhaps we can use a common error code, but format the error string in such a way that it can be decoded as a VIUnit failure error.  We would then need some support VIs for encoding and decoding the error string.
+
+* Allow non-TestCase subclasses to have tests -- Omar doesn't think this should happen ever -- better to keep test code separate from application code (see JUnit book)
+  ** Should make setUp and tearDown dynamic using the Run method and rename as testSetUp and testTearDown to avoid name collisions with user's class methods.
+  ** tests should be prefixed with "test" and should conform to input-output requirements: "TestCase in", "TestCase out", and "error out" (same req's as TestCase subclasses)
+
+* It would be nice to make the TestResult class a by-reference, so that results can be seen live. (need to make a decision about which by-ref framework to use).  -- workaround -- am passing the event reference as an Create argument which allows the result changes to be propagated as events
+
+
+Graphical Test Runner Issues:
+
+* Make progress bar out of red/green bar... it should update as tests are run -- on second thought maybe not
+
+* Make Test Details appear in a pane that can be hidden via resizing
+
+* Utitlize the 'Reload classes every run' control -- currently not sure how or if this would be useful
+
+* Could have a 'Open Test Panel' checkbox that would auto open tests while they are running
+
+* A test re-run should update tree/failure list (not erase it)
+
+* Would be nice to show 'recent paths' near dialog
+
+* Would be nice to be able to drag classes or project from the project tree to the path control... submitted as bug to NI
+
+* Need to expose test coverage estimation
+
+* tearDown error is not being reported as such -- it's showing up as an error with the test method
+
+* when test methods (or setUp and tearDown) have object reference control and indicators with the same names ("reference in"), the framework does not set the output data correctly -- it sets the output data on the input data control -- believe this is now fixed
+
+* should report errors due to test methods as dynamic methods (they can't be) -- ?? not sure what this means
+
+* Can't support classes from multiple LabVIEW versions (8.2 only supported)

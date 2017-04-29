@@ -1,0 +1,8 @@
+Code is in LV2010 but should be down-convertable to 2009 if needed - written in LV2010 b/c scripting is 'natively' supported
+
+Test Project.lvproj
+Top level VI is Create Unit Tests UI.vi
+	This VI would be replaced by project provider plugin
+
+RCF Plugin:
+RCF only works if only 1 project is open

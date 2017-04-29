@@ -1,0 +1,119 @@
+[Package Name]
+Name=jki_labs_tool_vi_tester
+Version=2.0.0.282
+Release=1
+
+[Description]
+Description="JKI VI Tester is a unit test framework for LabVIEW based on xUnit test framework patterns.\0A\0A-= Release Notes =-\0A[Fix] Template Instantiation updated."
+Summary="JKI VI Tester"
+License=BSD
+Copyright="2009-2017 JKI. All Rights Reserved."
+Distribution=JKI
+Icon=icon.bmp
+Vendor=JKI
+URL=http://jki.net/tools/
+Packager=info@jki.net
+
+[Platform]
+Exclusive_LabVIEW_Version=>=11
+Exclusive_LabVIEW_System=ALL
+Exclusive_OS="Windows NT>=5"
+
+[Script VIs]
+Source Dir=""
+PreInstall=""
+PostInstall=""
+PreUninstall=""
+PostUninstall=""
+Verify=""
+PreBuild=""
+PostBuild=""
+
+[Dependencies]
+AutoReqProv=FALSE
+Requires=jki_rsc_toolkits_palette>=1.1
+Conflicts=jki_lib_vi_tester>=0.0,jki_rsc_vi_tester_project_integration=
+
+[Files]
+Num File Groups=10
+
+[File Group 0]
+Source Dir=../Built/LLBs
+Target Dir=<application>
+Replace Mode=Always
+Num Files=5
+File 0="resource/JKI/VI Tester/GraphicalTestRunner.llb"
+File 1="resource/JKI/VI Tester/Templates/TestCase/*.*"
+File 2="resource/JKI/VI Tester/Templates/TestSuite/*.*"
+File 3="vi.lib/addons/_JKI Toolkits/VI Tester/*.*"
+File 4="vi.lib/addons/_JKI Toolkits/VI Tester/_support/*.*"
+
+[File Group 1]
+Source Dir=../menu
+Target Dir="<vi.lib>/addons/_JKI Toolkits/dynamic_palette"
+Replace Mode=Always
+Num Files=1
+File 0="JKI VI Tester.mnu"
+
+[File Group 2]
+Source Dir=../menu
+Target Dir="<vi.lib>/addons/_JKI Toolkits/VI Tester"
+Replace Mode=Always
+Num Files=5
+File 0="JKI TestCase.mnu"
+File 1="JKI TestSuite.mnu"
+File 2="JKI TestCase Utilities.mnu"
+File 3="JKI TestSuite Utilities.mnu"
+File 4="JKI VI Tester API.mnu"
+
+[File Group 3]
+Source Dir="../Built/Menu Launch"
+Target Dir="<project>/VI Tester"
+Replace Mode=Always
+Num Files=1
+File 0=*.*
+
+[File Group 4]
+Source Dir="../Built/Menu Launch - New Test Case"
+Target Dir="<project>/VI Tester/New"
+Replace Mode=Always
+Num Files=1
+File 0=*.*
+
+[File Group 5]
+Source Dir="../Built/Menu Launch - New Test Suite"
+Target Dir="<project>/VI Tester/New"
+Replace Mode=Always
+Num Files=1
+File 0=*.*
+
+[File Group 6]
+Source Dir=""
+Target Dir=<application>
+Replace Mode=Never
+Num Files=0
+
+[File Group 7]
+Source Dir=../Built/Examples
+Target Dir="<application>/examples/JKI/VI Tester"
+Replace Mode=Always
+Num Files=4
+File 0=*.*
+File 1=ExampleTestSuite/*.*
+File 2="Queue TestCase/*.*"
+File 3="Merge Errors TestCase/*.*"
+
+[File Group 8]
+Source Dir="../Built Project Integration"
+Target Dir=<resource>/Framework/Providers/vitester
+Replace Mode=Always
+Num Files=1
+File 0=*.*
+
+[File Group 9]
+Source Dir="../LabVIEW Project Plugin"
+Target Dir=<resource>/Framework/Providers/GProviders
+Replace Mode=Always
+Num Files=1
+File 0=VITester.ini
+
