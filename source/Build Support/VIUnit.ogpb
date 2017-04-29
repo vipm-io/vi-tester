@@ -1,10 +1,10 @@
 [Package Name]
 Name=jki_labs_tool_vi_tester
-Version=2.0.0.282
+Version=2.0.0.284
 Release=1
 
 [Description]
-Description="JKI VI Tester is a unit test framework for LabVIEW based on xUnit test framework patterns.\0A\0A-= Release Notes =-\0A[Fix] Template Instantiation updated."
+Description="JKI VI Tester is a unit test framework for LabVIEW based on xUnit test framework patterns.\0A\0A-= Release Notes =-\0A- Released under BSD open source license\0A- Source code and project moved to GitHub"
 Summary="JKI VI Tester"
 License=BSD
 Copyright="2009-2017 JKI. All Rights Reserved."

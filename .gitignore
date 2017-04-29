@@ -16,3 +16,5 @@
 *.lvlps
 *.log
 *.db
+source/Built
+*.ogp
