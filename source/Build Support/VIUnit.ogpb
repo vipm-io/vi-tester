@@ -1,6 +1,6 @@
 [Package Name]
 Name=jki_labs_tool_vi_tester
-Version=2.0.0.284
+Version=2.0.0.285
 Release=1
 
 [Description]
@@ -11,7 +11,7 @@ Copyright="2009-2017 JKI. All Rights Reserved."
 Distribution=JKI
 Icon=icon.bmp
 Vendor=JKI
-URL=http://jki.net/tools/
+URL="https://github.com/JKISoftware/JKI-VI-Tester"
 Packager=info@jki.net
 
 [Platform]
