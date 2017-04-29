@@ -6,7 +6,7 @@ VI Tester is a software test framework for LabVIEW by [JKI](http://jki.net) that
 
 **[Download VI Tester](https://vipm.jki.net/package/jki_labs_tool_vi_tester)**
 
-![vi tester](https://cloud.githubusercontent.com/assets/381432/25556811/bc5c2ec2-2cb8-11e7-9c6d-c738208e3fc4.png  =100x)
+![vi tester](https://cloud.githubusercontent.com/assets/381432/25556811/bc5c2ec2-2cb8-11e7-9c6d-c738208e3fc4.png)
 
 About VI Tester
 ---------------
