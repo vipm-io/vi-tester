@@ -1,8 +1,12 @@
 # JKI VI Tester for LabVIEW
 
-A unit testing framework for LabVIEW, built on the software engineering industry's proven [xUnit](http://en.wikipedia.org/wiki/XUnit) architecture. [Download VI Tester](https://vipm.jki.net/package/jki_labs_tool_vi_tester)
+![2017-04-29_10-50-13](https://cloud.githubusercontent.com/assets/381432/25557598/a56f55a2-2cc9-11e7-872d-9a1648e82a8a.png)
 
-![vi tester](https://cloud.githubusercontent.com/assets/381432/25556811/bc5c2ec2-2cb8-11e7-9c6d-c738208e3fc4.png)
+VI Tester is a software test framework for LabVIEW by [JKI](http://jki.net) that allows software developers to test their LabVIEW code (VIs). Software testing is a critical component of agile development and test driven development processes and is also critical for validating software functionality. VI Tester is based on the industry standard [xUnit](http://en.wikipedia.org/wiki/XUnit) software test architecture that is used in many other programming languages. This architecture is very flexible and powerful, but also very easy for beginners to learn.
+
+**[Download VI Tester](https://vipm.jki.net/package/jki_labs_tool_vi_tester)**
+
+![vi tester](https://cloud.githubusercontent.com/assets/381432/25556811/bc5c2ec2-2cb8-11e7-9c6d-c738208e3fc4.png  =100x)
 
 About VI Tester
 ---------------
