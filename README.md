@@ -1,3 +1,5 @@
+*Do you have VI Tester or LabVIEW unit testing questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [VI Tester Community Discussion Forums](https://forums.jki.net/forum/51-vi-tester/).*
+
 ![2017-04-29_10-50-13](https://cloud.githubusercontent.com/assets/381432/25557623/1c231a44-2cca-11e7-8c5f-a83363bbe8d0.png)
 
 VI Tester is a software test framework for LabVIEW by [JKI](http://jki.net) that allows software developers to test their LabVIEW code (VIs). Software testing is a critical component of agile development and test driven development processes and is also critical for validating software functionality. VI Tester is based on the industry standard [xUnit](http://en.wikipedia.org/wiki/XUnit) software test architecture that is used in many other programming languages. This architecture is very flexible and powerful, but also very easy for beginners to learn.
@@ -35,3 +37,5 @@ VI Tester requires the following software:
 - [VI Package Manager](http://vipm.jki.net) for installation
 
 VI Tester is an open source project maintained by [JKI](http://jki.net). To submit bugs, feature requests, or contributions, please [submit an issue](https://github.com/JKISoftware/JKI-VI-Tester/issues/new) to the project tracker.
+
+*Do you have VI Tester or LabVIEW unit testing questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [VI Tester Community Discussion Forums](https://forums.jki.net/forum/51-vi-tester/).*
