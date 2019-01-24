@@ -1,5 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
+	<Property Name="CCSymbols" Type="Str"></Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -70,6 +73,47 @@
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="temp_VI_UnderTest.vi" Type="VI" URL="../Utilities/temp_VI_UnderTest.vi"/>
+		</Item>
+		<Item Name="Various Dependencies" Type="Folder">
+			<Item Name="Mass Compile LabVIEW Tool__jki_lib_application_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Mass Compile LabVIEW Tool__jki_lib_application_control -- VI Tester.vi"/>
+			<Item Name="Get Menu Launch Info__jki_lib_application_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Get Menu Launch Info__jki_lib_application_control -- VI Tester.vi"/>
+			<Item Name="Menu Launch Info - Cluster__jki_lib_application_control -- VI Tester.ctl" Type="VI" URL="../JKI Reuse/Menu Launch Info - Cluster__jki_lib_application_control -- VI Tester.ctl"/>
+			<Item Name="Project Item Info - Cluster__jki_lib_application_control -- VI Tester.ctl" Type="VI" URL="../JKI Reuse/Project Item Info - Cluster__jki_lib_application_control -- VI Tester.ctl"/>
+			<Item Name="X in Y__jki_lib_array -- VI Tester.vi" Type="VI" URL="../JKI Reuse/X in Y__jki_lib_array -- VI Tester.vi"/>
+			<Item Name="X in Y (Variant)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../JKI Reuse/X in Y (Variant)__jki_lib_array -- VI Tester.vi"/>
+			<Item Name="X in Y (Variant Array)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../JKI Reuse/X in Y (Variant Array)__jki_lib_array -- VI Tester.vi"/>
+			<Item Name="X in Y (Path Array)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../JKI Reuse/X in Y (Path Array)__jki_lib_array -- VI Tester.vi"/>
+			<Item Name="JKI Get System Web Browser__jki_lib_communication -- VI Tester.vi" Type="VI" URL="../JKI Reuse/JKI Get System Web Browser__jki_lib_communication -- VI Tester.vi"/>
+			<Item Name="X in Y (Path)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../JKI Reuse/X in Y (Path)__jki_lib_array -- VI Tester.vi"/>
+			<Item Name="JKI Get Web Browser Path__jki_lib_communication -- VI Tester.vi" Type="VI" URL="../JKI Reuse/JKI Get Web Browser Path__jki_lib_communication -- VI Tester.vi"/>
+			<Item Name="JKI Open URL In Browser__jki_lib_communication -- VI Tester.vi" Type="VI" URL="../JKI Reuse/JKI Open URL In Browser__jki_lib_communication -- VI Tester.vi"/>
+			<Item Name="JKI Prompt Web Browser Path__jki_lib_communication -- VI Tester.vi" Type="VI" URL="../JKI Reuse/JKI Prompt Web Browser Path__jki_lib_communication -- VI Tester.vi"/>
+			<Item Name="Clear All Errors__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Clear All Errors__jki_lib_error_handling -- VI Tester.vi"/>
+			<Item Name="Filter Error Codes (Array)__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Filter Error Codes (Array)__jki_lib_error_handling -- VI Tester.vi"/>
+			<Item Name="Filter Error Codes (Scalar)__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Filter Error Codes (Scalar)__jki_lib_error_handling -- VI Tester.vi"/>
+			<Item Name="Filter Error Codes__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Filter Error Codes__jki_lib_error_handling -- VI Tester.vi"/>
+			<Item Name="Filtered Error Details - Cluster__jki_lib_error_handling -- VI Tester.ctl" Type="VI" URL="../JKI Reuse/Filtered Error Details - Cluster__jki_lib_error_handling -- VI Tester.ctl"/>
+			<Item Name="Is an Error (any error array element)__jki_lib_error_handling VI Tester.vi" Type="VI" URL="../JKI Reuse/Is an Error (any error array element)__jki_lib_error_handling VI Tester.vi"/>
+			<Item Name="Is an Error (error array)__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Is an Error (error array)__jki_lib_error_handling -- VI Tester.vi"/>
+			<Item Name="Is an Error (error cluster)__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Is an Error (error cluster)__jki_lib_error_handling -- VI Tester.vi"/>
+			<Item Name="Is an Error__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Is an Error__jki_lib_error_handling -- VI Tester.vi"/>
+			<Item Name="File Dialog__jki_lib_file -- VI Tester.vi" Type="VI" URL="../JKI Reuse/File Dialog__jki_lib_file -- VI Tester.vi"/>
+			<Item Name="Write Characters to File - With Error in and Error Out - __jki_lib_file -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Write Characters to File - With Error in and Error Out - __jki_lib_file -- VI Tester.vi"/>
+			<Item Name="Alphs Blend Glyphs __jki_lib_picture -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Alphs Blend Glyphs __jki_lib_picture -- VI Tester.vi"/>
+			<Item Name="Create Mask By Alpha - Advanced -__jki_lib_picture -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Create Mask By Alpha - Advanced -__jki_lib_picture -- VI Tester.vi"/>
+			<Item Name="Draw Flatten Pixmap__jki_lib_picture -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Draw Flatten Pixmap__jki_lib_picture -- VI Tester.vi"/>
+			<Item Name="Draw Flattened Pixmap (Fast)__jki_lib_picture -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Draw Flattened Pixmap (Fast)__jki_lib_picture -- VI Tester.vi"/>
+			<Item Name="TREE_Get Children__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Get Children__jki_lib_tree_control -- VI Tester.vi"/>
+			<Item Name="TREE_Get Current__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Get Current__jki_lib_tree_control -- VI Tester.vi"/>
+			<Item Name="TREE_Get Parent__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Get Parent__jki_lib_tree_control -- VI Tester.vi"/>
+			<Item Name="TREE_Get Siblings__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Get Siblings__jki_lib_tree_control -- VI Tester.vi"/>
+			<Item Name="Throber Control__jki_lib_user_interface -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Throber Control__jki_lib_user_interface -- VI Tester.vi"/>
+			<Item Name="TREE_Tree Expand__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Tree Expand__jki_lib_tree_control -- VI Tester.vi"/>
+			<Item Name="TREE_Tree Collapse__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Tree Collapse__jki_lib_tree_control -- VI Tester.vi"/>
+			<Item Name="TREE_Set Node Open or Close__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Set Node Open or Close__jki_lib_tree_control -- VI Tester.vi"/>
+			<Item Name="Throber List Animated__jki_lib_user_interface - VI Tester.ctl" Type="VI" URL="../JKI Reuse/Throber List Animated__jki_lib_user_interface - VI Tester.ctl"/>
+			<Item Name="Get Version Name.vi" Type="VI" URL="../User Interfaces/Graphical Test Runner/Graphical Test Runner Support/Get Version Name.vi"/>
+			<Item Name="Post Build Package Mods -- Wrapper.vi" Type="VI" URL="../Build Support/Post Build Package Mods Support/Post Build Package Mods -- Wrapper.vi"/>
 		</Item>
 		<Item Name="Graphical Test Runner - Main UI - .vi" Type="VI" URL="../User Interfaces/Graphical Test Runner/Graphical Test Runner - Main UI - .vi"/>
 		<Item Name="VIUnit - VI Tree.vi" Type="VI" URL="../VIUnit - VI Tree.vi"/>
@@ -675,45 +719,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get Version Name.vi" Type="VI" URL="../User Interfaces/Graphical Test Runner/Graphical Test Runner Support/Get Version Name.vi"/>
-			<Item Name="Mass Compile LabVIEW Tool__jki_lib_application_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Mass Compile LabVIEW Tool__jki_lib_application_control -- VI Tester.vi"/>
-			<Item Name="Get Menu Launch Info__jki_lib_application_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Get Menu Launch Info__jki_lib_application_control -- VI Tester.vi"/>
-			<Item Name="Menu Launch Info - Cluster__jki_lib_application_control -- VI Tester.ctl" Type="VI" URL="../JKI Reuse/Menu Launch Info - Cluster__jki_lib_application_control -- VI Tester.ctl"/>
-			<Item Name="Project Item Info - Cluster__jki_lib_application_control -- VI Tester.ctl" Type="VI" URL="../JKI Reuse/Project Item Info - Cluster__jki_lib_application_control -- VI Tester.ctl"/>
-			<Item Name="X in Y__jki_lib_array -- VI Tester.vi" Type="VI" URL="../JKI Reuse/X in Y__jki_lib_array -- VI Tester.vi"/>
-			<Item Name="X in Y (Variant)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../JKI Reuse/X in Y (Variant)__jki_lib_array -- VI Tester.vi"/>
-			<Item Name="X in Y (Variant Array)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../JKI Reuse/X in Y (Variant Array)__jki_lib_array -- VI Tester.vi"/>
-			<Item Name="X in Y (Path Array)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../JKI Reuse/X in Y (Path Array)__jki_lib_array -- VI Tester.vi"/>
-			<Item Name="JKI Get System Web Browser__jki_lib_communication -- VI Tester.vi" Type="VI" URL="../JKI Reuse/JKI Get System Web Browser__jki_lib_communication -- VI Tester.vi"/>
-			<Item Name="X in Y (Path)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../JKI Reuse/X in Y (Path)__jki_lib_array -- VI Tester.vi"/>
-			<Item Name="JKI Get Web Browser Path__jki_lib_communication -- VI Tester.vi" Type="VI" URL="../JKI Reuse/JKI Get Web Browser Path__jki_lib_communication -- VI Tester.vi"/>
-			<Item Name="JKI Open URL In Browser__jki_lib_communication -- VI Tester.vi" Type="VI" URL="../JKI Reuse/JKI Open URL In Browser__jki_lib_communication -- VI Tester.vi"/>
-			<Item Name="JKI Prompt Web Browser Path__jki_lib_communication -- VI Tester.vi" Type="VI" URL="../JKI Reuse/JKI Prompt Web Browser Path__jki_lib_communication -- VI Tester.vi"/>
-			<Item Name="Clear All Errors__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Clear All Errors__jki_lib_error_handling -- VI Tester.vi"/>
-			<Item Name="Filter Error Codes (Array)__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Filter Error Codes (Array)__jki_lib_error_handling -- VI Tester.vi"/>
-			<Item Name="Filter Error Codes (Scalar)__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Filter Error Codes (Scalar)__jki_lib_error_handling -- VI Tester.vi"/>
-			<Item Name="Filter Error Codes__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Filter Error Codes__jki_lib_error_handling -- VI Tester.vi"/>
-			<Item Name="Filtered Error Details - Cluster__jki_lib_error_handling -- VI Tester.ctl" Type="VI" URL="../JKI Reuse/Filtered Error Details - Cluster__jki_lib_error_handling -- VI Tester.ctl"/>
-			<Item Name="Is an Error (any error array element)__jki_lib_error_handling VI Tester.vi" Type="VI" URL="../JKI Reuse/Is an Error (any error array element)__jki_lib_error_handling VI Tester.vi"/>
-			<Item Name="Is an Error (error array)__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Is an Error (error array)__jki_lib_error_handling -- VI Tester.vi"/>
-			<Item Name="Is an Error (error cluster)__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Is an Error (error cluster)__jki_lib_error_handling -- VI Tester.vi"/>
-			<Item Name="Is an Error__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Is an Error__jki_lib_error_handling -- VI Tester.vi"/>
-			<Item Name="File Dialog__jki_lib_file -- VI Tester.vi" Type="VI" URL="../JKI Reuse/File Dialog__jki_lib_file -- VI Tester.vi"/>
-			<Item Name="Write Characters to File - With Error in and Error Out - __jki_lib_file -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Write Characters to File - With Error in and Error Out - __jki_lib_file -- VI Tester.vi"/>
-			<Item Name="Alphs Blend Glyphs __jki_lib_picture -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Alphs Blend Glyphs __jki_lib_picture -- VI Tester.vi"/>
-			<Item Name="Create Mask By Alpha - Advanced -__jki_lib_picture -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Create Mask By Alpha - Advanced -__jki_lib_picture -- VI Tester.vi"/>
-			<Item Name="Draw Flatten Pixmap__jki_lib_picture -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Draw Flatten Pixmap__jki_lib_picture -- VI Tester.vi"/>
-			<Item Name="Draw Flattened Pixmap (Fast)__jki_lib_picture -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Draw Flattened Pixmap (Fast)__jki_lib_picture -- VI Tester.vi"/>
-			<Item Name="TREE_Get Children__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Get Children__jki_lib_tree_control -- VI Tester.vi"/>
-			<Item Name="TREE_Get Current__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Get Current__jki_lib_tree_control -- VI Tester.vi"/>
-			<Item Name="TREE_Get Parent__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Get Parent__jki_lib_tree_control -- VI Tester.vi"/>
-			<Item Name="TREE_Get Siblings__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Get Siblings__jki_lib_tree_control -- VI Tester.vi"/>
-			<Item Name="Throber Control__jki_lib_user_interface -- VI Tester.vi" Type="VI" URL="../JKI Reuse/Throber Control__jki_lib_user_interface -- VI Tester.vi"/>
-			<Item Name="TREE_Tree Expand__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Tree Expand__jki_lib_tree_control -- VI Tester.vi"/>
-			<Item Name="TREE_Tree Collapse__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Tree Collapse__jki_lib_tree_control -- VI Tester.vi"/>
-			<Item Name="TREE_Set Node Open or Close__jki_lib_tree_control -- VI Tester.vi" Type="VI" URL="../JKI Reuse/TREE_Set Node Open or Close__jki_lib_tree_control -- VI Tester.vi"/>
-			<Item Name="Throber List Animated__jki_lib_user_interface - VI Tester.ctl" Type="VI" URL="../JKI Reuse/Throber List Animated__jki_lib_user_interface - VI Tester.ctl"/>
-			<Item Name="Post Build Package Mods -- Wrapper.vi" Type="VI" URL="../Build Support/Post Build Package Mods Support/Post Build Package Mods -- Wrapper.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test Application" Type="EXE">
