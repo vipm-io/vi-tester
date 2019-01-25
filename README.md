@@ -33,7 +33,7 @@ See the [VI Tester Wiki](https://github.com/JKISoftware/JKI-VI-Tester/wiki) for 
 ## System Requirements ##
 VI Tester requires the following software:
 
-- LabVIEW 2011 or greater on any operating system
+- LabVIEW 2013 or greater on any operating system
 - [VI Package Manager](http://vipm.jki.net) for installation
 
 VI Tester is an open source project maintained by [JKI](http://jki.net). To submit bugs, feature requests, or contributions, please [submit an issue](https://github.com/JKISoftware/JKI-VI-Tester/issues/new) to the project tracker.
