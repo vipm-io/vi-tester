@@ -1,10 +1,10 @@
 [Package Name]
 Name=jki_labs_tool_vi_tester
-Version=3.0.1.293
+Version=3.0.2.294
 Release=1
 
 [Description]
-Description="JKI VI Tester is a unit test framework for LabVIEW based on xUnit test framework patterns.\0A\0A-= Release Notes =-\0A- [NEW #35] Upgraded sources to LabVIEW 2013\0A- [FIX #27] Sort Recent Files by time relevance\0A- [NEW #28] Template Tests Should Have Compiled Code Seperated\0A- [FIX #34] Some reference types lost when passed from setup to test VI\0A- [NEW #36] Separate compiled source on all VIs\0A- [NEW #38] Allow skipping tests from setUp.vi - tests will now be skipped if skip.vi is called inside setUp.vi"
+Description="JKI VI Tester is a unit test framework for LabVIEW based on xUnit test framework patterns.\0A\0A-= Release Notes =-\0A- [NEW #35] Upgraded sources to LabVIEW 2013\0A- [FIX #27] Sort Recent Files by time relevance\0A- [NEW #28] Template Tests Should Have Compiled Code Seperated\0A- [FIX #34] Some reference types lost when passed from setup to test VI\0A- [NEW #36] Separate compiled source on all VIs\0A- [NEW #38] Allow skipping tests from setUp.vi - tests will now be skipped if skip.vi is called inside setUp.vi\0A- [FIX #39] Some reference types lost when created in TestSuite.lvclass:setUp.vi"
 Summary="JKI VI Tester"
 License=BSD
 Copyright="2009-2019 JKI. All Rights Reserved."
