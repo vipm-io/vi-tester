@@ -7,7 +7,7 @@ VI Tester is a software test framework for LabVIEW by [JKI](http://jki.net) that
 ## Installation ##
 You can download and install VI Tester with VI Package Manager.
 
-**[Download VI Tester](https://vipm.jki.net/package/jki_labs_tool_vi_tester)**
+**[Download VI Tester](https://resources.jki.net/vi-tester)**
 
 ## Usage ##
 
@@ -33,7 +33,7 @@ See the [VI Tester Wiki](https://github.com/JKISoftware/JKI-VI-Tester/wiki) for 
 ## System Requirements ##
 VI Tester requires the following software:
 
-- LabVIEW 2011 or greater on any operating system
+- LabVIEW 2013 or greater on any operating system
 - [VI Package Manager](http://vipm.jki.net) for installation
 
 VI Tester is an open source project maintained by [JKI](http://jki.net). To submit bugs, feature requests, or contributions, please [submit an issue](https://github.com/JKISoftware/JKI-VI-Tester/issues/new) to the project tracker.
