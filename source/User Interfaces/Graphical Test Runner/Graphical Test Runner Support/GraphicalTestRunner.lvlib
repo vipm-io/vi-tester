@@ -5,6 +5,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Get Test Instance Name.vi" Type="VI" URL="../Get Test Instance Name.vi"/>
+	</Item>
 	<Item Name="Graphical Test Runner - Get Version.vi" Type="VI" URL="../Graphical Test Runner - Get Version.vi"/>
 	<Item Name="Get Class Path from Class Name.vi" Type="VI" URL="../Get Class Path from Class Name.vi"/>
 	<Item Name="Get Test Path By Tag.vi" Type="VI" URL="../Get Test Path By Tag.vi"/>
