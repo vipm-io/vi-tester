@@ -24,7 +24,7 @@ The VI Tester framework is composed of three parts:
 
 ## Getting Started ##
 
-See the [VI Tester Getting Started Guide](https://github.com/JKISoftware/JKI-VI-Tester/wiki/VI-Tester-Getting-Started-Guide)
+See the [VI Tester Getting Started Guide](https://github.com/JKISoftware/JKI-VI-Tester/wiki/Getting-Started-Guide-and-Resources)
 
 ## Documentation ##
 
