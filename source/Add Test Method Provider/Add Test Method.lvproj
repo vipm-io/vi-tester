@@ -13,24 +13,24 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="provider VIs" Type="Folder">
-			<Item Name="AddTestMethod_CreateDummyObject.vi" Type="VI" URL="../AddTestMethod_CreateDummyObject.vi"/>
-			<Item Name="AddTestMethod_CreateNewWizard_Finalize.vi" Type="VI" URL="../AddTestMethod_CreateNewWizard_Finalize.vi"/>
-			<Item Name="AddTestMethod_CreateNewWizard_GetWeight.vi" Type="VI" URL="../AddTestMethod_CreateNewWizard_GetWeight.vi"/>
-			<Item Name="AddTestMethod_CreateNewWizard_IncludeItem.vi" Type="VI" URL="../AddTestMethod_CreateNewWizard_IncludeItem.vi"/>
-			<Item Name="AddTestMethod_CreateNewWizard_Init.vi" Type="VI" URL="../AddTestMethod_CreateNewWizard_Init.vi"/>
-			<Item Name="AddTestMethod_CreateNewWizard_Interface.vi" Type="VI" URL="../AddTestMethod_CreateNewWizard_Interface.vi"/>
-			<Item Name="AddTestMethod_CreateNewWizard_Invoke.vi" Type="VI" URL="../AddTestMethod_CreateNewWizard_Invoke.vi"/>
-			<Item Name="AddTestMethod_Item_CanDragToProjectWindow.vi" Type="VI" URL="../AddTestMethod_Item_CanDragToProjectWindow.vi"/>
-			<Item Name="AddTestMethod_Item_CanDropItem.vi" Type="VI" URL="../AddTestMethod_Item_CanDropItem.vi"/>
-			<Item Name="AddTestMethod_Item_Init.vi" Type="VI" URL="../AddTestMethod_Item_Init.vi"/>
-			<Item Name="AddTestMethod_Item_Interface.vi" Type="VI" URL="../AddTestMethod_Item_Interface.vi"/>
-			<Item Name="AddTestMethod_Item_OnCommand.vi" Type="VI" URL="../AddTestMethod_Item_OnCommand.vi"/>
-			<Item Name="AddTestMethod_Item_OnDblClick.vi" Type="VI" URL="../AddTestMethod_Item_OnDblClick.vi"/>
-			<Item Name="AddTestMethod_Item_OnDropItem.vi" Type="VI" URL="../AddTestMethod_Item_OnDropItem.vi"/>
-			<Item Name="AddTestMethod_Item_OnPopupMenu.vi" Type="VI" URL="../AddTestMethod_Item_OnPopupMenu.vi"/>
-			<Item Name="AddTestMethod_Provider_Interface.vi" Type="VI" URL="../AddTestMethod_Provider_Interface.vi"/>
-			<Item Name="AddTestMethod_Provider_OnCommand.vi" Type="VI" URL="../AddTestMethod_Provider_OnCommand.vi"/>
-			<Item Name="AddTestMethod_Provider_OnPopupMenu.vi" Type="VI" URL="../AddTestMethod_Provider_OnPopupMenu.vi"/>
+			<Item Name="AddTestMethod_CreateDummyObject.vi" Type="VI" URL="../Provider/AddTestMethod_CreateDummyObject.vi"/>
+			<Item Name="AddTestMethod_CreateNewWizard_Finalize.vi" Type="VI" URL="../Provider/AddTestMethod_CreateNewWizard_Finalize.vi"/>
+			<Item Name="AddTestMethod_CreateNewWizard_GetWeight.vi" Type="VI" URL="../Provider/AddTestMethod_CreateNewWizard_GetWeight.vi"/>
+			<Item Name="AddTestMethod_CreateNewWizard_IncludeItem.vi" Type="VI" URL="../Provider/AddTestMethod_CreateNewWizard_IncludeItem.vi"/>
+			<Item Name="AddTestMethod_CreateNewWizard_Init.vi" Type="VI" URL="../Provider/AddTestMethod_CreateNewWizard_Init.vi"/>
+			<Item Name="AddTestMethod_CreateNewWizard_Interface.vi" Type="VI" URL="../Provider/AddTestMethod_CreateNewWizard_Interface.vi"/>
+			<Item Name="AddTestMethod_CreateNewWizard_Invoke.vi" Type="VI" URL="../Provider/AddTestMethod_CreateNewWizard_Invoke.vi"/>
+			<Item Name="AddTestMethod_Item_CanDragToProjectWindow.vi" Type="VI" URL="../Provider/AddTestMethod_Item_CanDragToProjectWindow.vi"/>
+			<Item Name="AddTestMethod_Item_CanDropItem.vi" Type="VI" URL="../Provider/AddTestMethod_Item_CanDropItem.vi"/>
+			<Item Name="AddTestMethod_Item_Init.vi" Type="VI" URL="../Provider/AddTestMethod_Item_Init.vi"/>
+			<Item Name="AddTestMethod_Item_Interface.vi" Type="VI" URL="../Provider/AddTestMethod_Item_Interface.vi"/>
+			<Item Name="AddTestMethod_Item_OnCommand.vi" Type="VI" URL="../Provider/AddTestMethod_Item_OnCommand.vi"/>
+			<Item Name="AddTestMethod_Item_OnDblClick.vi" Type="VI" URL="../Provider/AddTestMethod_Item_OnDblClick.vi"/>
+			<Item Name="AddTestMethod_Item_OnDropItem.vi" Type="VI" URL="../Provider/AddTestMethod_Item_OnDropItem.vi"/>
+			<Item Name="AddTestMethod_Item_OnPopupMenu.vi" Type="VI" URL="../Provider/AddTestMethod_Item_OnPopupMenu.vi"/>
+			<Item Name="AddTestMethod_Provider_Interface.vi" Type="VI" URL="../Provider/AddTestMethod_Provider_Interface.vi"/>
+			<Item Name="AddTestMethod_Provider_OnCommand.vi" Type="VI" URL="../Provider/AddTestMethod_Provider_OnCommand.vi"/>
+			<Item Name="AddTestMethod_Provider_OnPopupMenu.vi" Type="VI" URL="../Provider/AddTestMethod_Provider_OnPopupMenu.vi"/>
 		</Item>
 		<Item Name="AddTestMethodProvider.ini" Type="Document" URL="../AddTestMethodProvider.ini"/>
 		<Item Name="Scripter.lvlib" Type="Library" URL="../Scripter/Scripter.lvlib"/>
