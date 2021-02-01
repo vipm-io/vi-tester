@@ -367,8 +367,11 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
+				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
+				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Clear All Errors__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../../JKI Reuse/Clear All Errors__jki_lib_error_handling -- VI Tester.vi"/>
@@ -402,6 +405,7 @@
 			<Item Name="TestLoader.lvclass" Type="LVClass" URL="../../Classes/TestLoader/TestLoader.lvclass"/>
 			<Item Name="TestResult.lvclass" Type="LVClass" URL="../../Classes/TestResult/TestResult.lvclass"/>
 			<Item Name="TestSuite.lvclass" Type="LVClass" URL="../../Classes/TestSuite/TestSuite.lvclass"/>
+			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 			<Item Name="VITesterUtilities.lvlib" Type="Library" URL="../../Libraries/VITesterUtilities.lvlib"/>
 			<Item Name="X in Y (Path Array)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../../JKI Reuse/X in Y (Path Array)__jki_lib_array -- VI Tester.vi"/>
 			<Item Name="X in Y (Path)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../../JKI Reuse/X in Y (Path)__jki_lib_array -- VI Tester.vi"/>

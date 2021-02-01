@@ -8,5 +8,7 @@
 
 </Property>
 	<Item Name="_td Dialog Data.ctl" Type="VI" URL="../_td Dialog Data.ctl"/>
+	<Item Name="Add VI to class library.vi" Type="VI" URL="../Add VI to class library.vi"/>
 	<Item Name="Create Test Method Dialog.vi" Type="VI" URL="../Create Test Method Dialog.vi"/>
+	<Item Name="Replace Class Inputs.vi" Type="VI" URL="../Replace Class Inputs.vi"/>
 </Library>
