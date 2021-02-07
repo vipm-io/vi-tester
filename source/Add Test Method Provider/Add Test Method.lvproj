@@ -377,7 +377,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Clear All Errors__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../../JKI Reuse/Clear All Errors__jki_lib_error_handling -- VI Tester.vi"/>
-			<Item Name="Create Test Method Dialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/test/Scripter/Create Test Method Dialog.vi"/>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
 			<Item Name="Filter Error Codes (Array)__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../../JKI Reuse/Filter Error Codes (Array)__jki_lib_error_handling -- VI Tester.vi"/>
 			<Item Name="Filter Error Codes (Scalar)__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../../JKI Reuse/Filter Error Codes (Scalar)__jki_lib_error_handling -- VI Tester.vi"/>
@@ -409,7 +408,6 @@
 			<Item Name="TestLoader.lvclass" Type="LVClass" URL="../../Classes/TestLoader/TestLoader.lvclass"/>
 			<Item Name="TestResult.lvclass" Type="LVClass" URL="../../Classes/TestResult/TestResult.lvclass"/>
 			<Item Name="TestSuite.lvclass" Type="LVClass" URL="../../Classes/TestSuite/TestSuite.lvclass"/>
-			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 			<Item Name="VITesterUtilities.lvlib" Type="Library" URL="../../Libraries/VITesterUtilities.lvlib"/>
 			<Item Name="X in Y (Path Array)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../../JKI Reuse/X in Y (Path Array)__jki_lib_array -- VI Tester.vi"/>
 			<Item Name="X in Y (Path)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../../JKI Reuse/X in Y (Path)__jki_lib_array -- VI Tester.vi"/>
