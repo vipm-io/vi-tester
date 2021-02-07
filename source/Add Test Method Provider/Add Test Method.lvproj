@@ -377,6 +377,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Clear All Errors__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../../JKI Reuse/Clear All Errors__jki_lib_error_handling -- VI Tester.vi"/>
+			<Item Name="Create Test Method Dialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/test/Scripter/Create Test Method Dialog.vi"/>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
 			<Item Name="Filter Error Codes (Array)__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../../JKI Reuse/Filter Error Codes (Array)__jki_lib_error_handling -- VI Tester.vi"/>
 			<Item Name="Filter Error Codes (Scalar)__jki_lib_error_handling -- VI Tester.vi" Type="VI" URL="../../JKI Reuse/Filter Error Codes (Scalar)__jki_lib_error_handling -- VI Tester.vi"/>
@@ -390,6 +391,7 @@
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
 			<Item Name="mxLvDebugDisplayCaller.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvDebugDisplayCaller.vi"/>
 			<Item Name="mxLvErrorHandler.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvErrorHandler.vi"/>
+			<Item Name="mxLvGetItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItem.vi"/>
 			<Item Name="mxLvGetItemRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItemRef.vi"/>
 			<Item Name="mxLvGetNIIM.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetNIIM.vi"/>
 			<Item Name="mxLvGetProjectRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetProjectRef.vi"/>
