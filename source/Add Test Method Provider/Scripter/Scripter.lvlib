@@ -13,4 +13,5 @@
 	<Item Name="Create Test Method Dialog.vi" Type="VI" URL="../Create Test Method Dialog.vi"/>
 	<Item Name="Get Templates List.vi" Type="VI" URL="../Get Templates List.vi"/>
 	<Item Name="Replace Class Inputs.vi" Type="VI" URL="../Replace Class Inputs.vi"/>
+	<Item Name="Resource Library Path.vi" Type="VI" URL="../Resource Library Path.vi"/>
 </Library>

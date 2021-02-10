@@ -410,7 +410,6 @@
 			<Item Name="TestLoader.lvclass" Type="LVClass" URL="../../Classes/TestLoader/TestLoader.lvclass"/>
 			<Item Name="TestResult.lvclass" Type="LVClass" URL="../../Classes/TestResult/TestResult.lvclass"/>
 			<Item Name="TestSuite.lvclass" Type="LVClass" URL="../../Classes/TestSuite/TestSuite.lvclass"/>
-			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 			<Item Name="VITesterUtilities.lvlib" Type="Library" URL="../../Libraries/VITesterUtilities.lvlib"/>
 			<Item Name="X in Y (Path Array)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../../JKI Reuse/X in Y (Path Array)__jki_lib_array -- VI Tester.vi"/>
 			<Item Name="X in Y (Path)__jki_lib_array -- VI Tester.vi" Type="VI" URL="../../JKI Reuse/X in Y (Path)__jki_lib_array -- VI Tester.vi"/>
