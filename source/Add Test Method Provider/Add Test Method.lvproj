@@ -31,7 +31,7 @@
 		</Item>
 		<Item Name="AddTestMethodProvider.ini" Type="Document" URL="../AddTestMethodProvider.ini"/>
 		<Item Name="Scripter.lvlib" Type="Library" URL="../Provider/Scripter/Scripter.lvlib"/>
-		<Item Name="test template standard.vi" Type="VI" URL="../Test Templates/test template standard.vi"/>
+		<Item Name="test template standart.vi" Type="VI" URL="../Test Templates/test template standart.vi"/>
 		<Item Name="TestClass.lvclass" Type="LVClass" URL="../TestClass/TestClass.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
