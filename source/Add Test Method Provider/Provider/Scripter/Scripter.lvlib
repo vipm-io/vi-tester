@@ -18,4 +18,5 @@
 		<Item Name="Save Class Library.vi" Type="VI" URL="../Save Class Library.vi"/>
 	</Item>
 	<Item Name="Create Test Method Dialog.vi" Type="VI" URL="../Create Test Method Dialog.vi"/>
+	<Item Name="Method Name Validation.vi" Type="VI" URL="../Method Name Validation.vi"/>
 </Library>
