@@ -13,15 +13,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="provider VIs" Type="Folder">
-			<Item Name="AddTestMethod_CreateDummyObject.vi" Type="VI" URL="../Provider/AddTestMethod_CreateDummyObject.vi"/>
 			<Item Name="AddTestMethod_CreateNewWizard_Finalize.vi" Type="VI" URL="../Provider/AddTestMethod_CreateNewWizard_Finalize.vi"/>
 			<Item Name="AddTestMethod_CreateNewWizard_GetWeight.vi" Type="VI" URL="../Provider/AddTestMethod_CreateNewWizard_GetWeight.vi"/>
 			<Item Name="AddTestMethod_CreateNewWizard_IncludeItem.vi" Type="VI" URL="../Provider/AddTestMethod_CreateNewWizard_IncludeItem.vi"/>
 			<Item Name="AddTestMethod_CreateNewWizard_Init.vi" Type="VI" URL="../Provider/AddTestMethod_CreateNewWizard_Init.vi"/>
 			<Item Name="AddTestMethod_CreateNewWizard_Interface.vi" Type="VI" URL="../Provider/AddTestMethod_CreateNewWizard_Interface.vi"/>
 			<Item Name="AddTestMethod_CreateNewWizard_Invoke.vi" Type="VI" URL="../Provider/AddTestMethod_CreateNewWizard_Invoke.vi"/>
-			<Item Name="AddTestMethod_Item_CanDragToProjectWindow.vi" Type="VI" URL="../Provider/AddTestMethod_Item_CanDragToProjectWindow.vi"/>
-			<Item Name="AddTestMethod_Item_CanDropItem.vi" Type="VI" URL="../Provider/AddTestMethod_Item_CanDropItem.vi"/>
 			<Item Name="AddTestMethod_Item_Init.vi" Type="VI" URL="../Provider/AddTestMethod_Item_Init.vi"/>
 			<Item Name="AddTestMethod_Item_Interface.vi" Type="VI" URL="../Provider/AddTestMethod_Item_Interface.vi"/>
 			<Item Name="AddTestMethod_Item_OnCommand.vi" Type="VI" URL="../Provider/AddTestMethod_Item_OnCommand.vi"/>
@@ -33,7 +30,7 @@
 			<Item Name="AddTestMethod_Provider_OnPopupMenu.vi" Type="VI" URL="../Provider/AddTestMethod_Provider_OnPopupMenu.vi"/>
 		</Item>
 		<Item Name="AddTestMethodProvider.ini" Type="Document" URL="../AddTestMethodProvider.ini"/>
-		<Item Name="Scripter.lvlib" Type="Library" URL="../Scripter/Scripter.lvlib"/>
+		<Item Name="Scripter.lvlib" Type="Library" URL="../Provider/Scripter/Scripter.lvlib"/>
 		<Item Name="test template standard.vi" Type="VI" URL="../Test Templates/test template standard.vi"/>
 		<Item Name="TestClass.lvclass" Type="LVClass" URL="../TestClass/TestClass.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -399,11 +396,8 @@
 			<Item Name="mxLvMenuItem.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvMenuItem.ctl"/>
 			<Item Name="mxLvNIIM.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvNIIM.ctl"/>
 			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
-			<Item Name="mxLvSetName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetName.vi"/>
 			<Item Name="mxLvSetPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetPopupMenu.vi"/>
 			<Item Name="mxLvSetPopupMenuBatch.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetPopupMenuBatch.vi"/>
-			<Item Name="mxLvUpdateUI.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvUpdateUI.ctl"/>
-			<Item Name="mxLvUpdateUI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvUpdateUI.vi"/>
 			<Item Name="Provider_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Provider_Interface.ctl"/>
 			<Item Name="TemplateTestCase.lvclass" Type="LVClass" URL="../../Templates/TestCase/TemplateTestCase.lvclass"/>
 			<Item Name="TestCase.lvclass" Type="LVClass" URL="../../Classes/TestCase/TestCase.lvclass"/>
