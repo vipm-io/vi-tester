@@ -13,10 +13,10 @@
 		<Item Name="Add VI to class library.vi" Type="VI" URL="../Add VI to class library.vi"/>
 		<Item Name="Check Template Consistency.vi" Type="VI" URL="../Check Template Consistency.vi"/>
 		<Item Name="Get Templates List.vi" Type="VI" URL="../Get Templates List.vi"/>
+		<Item Name="Method Name Validation.vi" Type="VI" URL="../Method Name Validation.vi"/>
 		<Item Name="Replace Class Inputs.vi" Type="VI" URL="../Replace Class Inputs.vi"/>
 		<Item Name="Resource Library Path.vi" Type="VI" URL="../Resource Library Path.vi"/>
 		<Item Name="Save Class Library.vi" Type="VI" URL="../Save Class Library.vi"/>
 	</Item>
 	<Item Name="Create Test Method Dialog.vi" Type="VI" URL="../Create Test Method Dialog.vi"/>
-	<Item Name="Method Name Validation.vi" Type="VI" URL="../Method Name Validation.vi"/>
 </Library>
