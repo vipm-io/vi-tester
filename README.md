@@ -24,11 +24,11 @@ The VI Tester framework is composed of three parts:
 
 ## Getting Started ##
 
-See the [VI Tester Getting Started Guide](https://github.com/JKISoftware/JKI-VI-Tester/wiki/VI-Tester-Getting-Started-Guide)
+See the [VI Tester Getting Started Guide](https://github.com/vipm-io/vi-tester/wiki/VI-Tester-Getting-Started-Guide)
 
 ## Documentation ##
 
-See the [VI Tester Wiki](https://github.com/JKISoftware/JKI-VI-Tester/wiki) for documentation.
+See the [VI Tester Wiki](https://github.com/vipm-io/vi-tester/wiki) for documentation.
 
 ## System Requirements ##
 VI Tester requires the following software:
@@ -36,6 +36,6 @@ VI Tester requires the following software:
 - LabVIEW 2013 or greater on any operating system
 - [VI Package Manager](http://vipm.jki.net) for installation
 
-VI Tester is an open source project maintained by [JKI](http://jki.net). To submit bugs, feature requests, or contributions, please [submit an issue](https://github.com/JKISoftware/JKI-VI-Tester/issues/new) to the project tracker.
+VI Tester is an open source project initially created by [JKI](http://jki.net) and now maintained by the VIPM Community. To submit bugs, feature requests, or contributions, please [submit an issue](https://github.com/vipm-io/vi-tester/issues/new) to the project tracker.
 
-*Do you have VI Tester or LabVIEW unit testing questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [VI Tester Community Discussion Forums](https://forums.jki.net/forum/51-vi-tester/).*
+*Do you have VI Tester or LabVIEW unit testing questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [VI Tester Community Discussion Forums](https://forums.vipm.io/forum/51-vi-tester/).*
