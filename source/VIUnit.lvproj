@@ -700,6 +700,18 @@
 				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
 				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+				<Item Name="OGB Directory__deab_api.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/deab_api/deab_api.llb/OGB Directory__deab_api.vi"/>
+				<Item Name="OGPM Package Spec__ogpb_api.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPM Package Spec__ogpb_api.ctl"/>
+				<Item Name="OGPM Spec - Package Name - Cluster__ogpb_api.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPM Spec - Package Name - Cluster__ogpb_api.ctl"/>
+				<Item Name="OGPM Package Spec Platform__ogpb_api.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPM Package Spec Platform__ogpb_api.ctl"/>
+				<Item Name="OGPM OS Dependency Cluster__ogpb_api.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPM OS Dependency Cluster__ogpb_api.ctl"/>
+				<Item Name="OGPM Package - File Group - Cluster__ogpb_api.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPM Package - File Group - Cluster__ogpb_api.ctl"/>
+				<Item Name="OGPM Spec - Description - Cluster__ogpb_api.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPM Spec - Description - Cluster__ogpb_api.ctl"/>
+				<Item Name="OGPM Package - Files - Cluster__ogpb_api.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPM Package - Files - Cluster__ogpb_api.ctl"/>
+				<Item Name="OGPM Package Spec Script VIs__ogpb_api.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPM Package Spec Script VIs__ogpb_api.ctl"/>
+				<Item Name="OGPM Package Spec Dependencies__ogpb_api.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPM Package Spec Dependencies__ogpb_api.ctl"/>
+				<Item Name="OGPM Package Dependency Cluster__ogpb_api.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPM Package Dependency Cluster__ogpb_api.ctl"/>
+				<Item Name="OGPB Directory__ogpb_api.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPB Directory__ogpb_api.vi"/>
 			</Item>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
