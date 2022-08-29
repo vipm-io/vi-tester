@@ -1,13 +1,13 @@
 [Package Name]
 Name=jki_labs_tool_vi_tester
-Version=4.0.0.296
+Version=4.0.0.298
 Release=1
 
 [Description]
 Description="VI Tester is a unit test framework for LabVIEW based on xUnit test framework patterns.\0A\0A-= Release Notes =-\0A- [NEW] Upgraded sources to LabVIEW 2017"
 Summary="VI Tester"
 License=BSD
-Copyright="2009-2022 VI Tester Contributors. All Rights Reserved."
+Copyright="2007-2022 VI Tester Contributors. All Rights Reserved."
 Distribution=vipm.io
 Icon=icon.bmp
 Vendor=vipm.io
@@ -104,7 +104,7 @@ File 2="Queue TestCase/*.*"
 File 3="Merge Errors TestCase/*.*"
 
 [File Group 8]
-Source Dir="../Built Project Integration"
+Source Dir="../Built/Project Provider"
 Target Dir=<resource>/Framework/Providers/vitester
 Replace Mode=Always
 Num Files=1
