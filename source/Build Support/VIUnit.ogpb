@@ -1,7 +1,7 @@
 [Package Name]
 Name=jki_labs_tool_vi_tester
-Version=4.0.0.299
-Release=1
+Version=4.0.0
+Release=0
 
 [Description]
 Description="VI Tester is a unit test framework for LabVIEW based on xUnit test framework patterns.\0A\0A-= Release Notes =-\0A- [NEW] Upgraded sources to LabVIEW 2017"
