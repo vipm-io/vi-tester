@@ -14,6 +14,59 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="LabVIEW Project Plugin" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="API Proxy - Open and Run All Tests.vi" Type="VI" URL="../LabVIEW Project Plugin/Support/API Proxy - Open and Run All Tests.vi"/>
+				<Item Name="Debug Interface.vi" Type="VI" URL="../LabVIEW Project Plugin/Support/Debug Interface.vi"/>
+				<Item Name="VI Tester Project API Create New TestCase.vi" Type="VI" URL="../LabVIEW Project Plugin/Support/VI Tester Project API Create New TestCase.vi"/>
+				<Item Name="VI Tester Project API Create New TestSuite.vi" Type="VI" URL="../LabVIEW Project Plugin/Support/VI Tester Project API Create New TestSuite.vi"/>
+				<Item Name="VI Tester Project API Get Method Path.vi" Type="VI" URL="../LabVIEW Project Plugin/Support/VI Tester Project API Get Method Path.vi"/>
+				<Item Name="VI Tester Project API Method Selector - Enum.ctl" Type="VI" URL="../LabVIEW Project Plugin/Support/VI Tester Project API Method Selector - Enum.ctl"/>
+				<Item Name="VI Tester Project API Open and Run All Tests.vi" Type="VI" URL="../LabVIEW Project Plugin/Support/VI Tester Project API Open and Run All Tests.vi"/>
+				<Item Name="VI Tester Project API Open VI Tester.vi" Type="VI" URL="../LabVIEW Project Plugin/Support/VI Tester Project API Open VI Tester.vi"/>
+				<Item Name="VITester Project Item Ref.ctl" Type="VI" URL="../LabVIEW Project Plugin/Support/VITester Project Item Ref.ctl"/>
+			</Item>
+			<Item Name="Build VI Tester Project Provider.vi" Type="VI" URL="../LabVIEW Project Plugin/Build VI Tester Project Provider.vi"/>
+			<Item Name="icon.bmp" Type="Document" URL="../LabVIEW Project Plugin/icon.bmp"/>
+			<Item Name="icon.xcf" Type="Document" URL="../LabVIEW Project Plugin/icon.xcf"/>
+			<Item Name="Nuvola Icon License.txt" Type="Document" URL="../LabVIEW Project Plugin/Nuvola Icon License.txt"/>
+			<Item Name="provider-toolbar-icons.xcf" Type="Document" URL="../LabVIEW Project Plugin/provider-toolbar-icons.xcf"/>
+			<Item Name="toolbar-addnewcase-mac.png" Type="Document" URL="../LabVIEW Project Plugin/toolbar-addnewcase-mac.png"/>
+			<Item Name="toolbar-addnewcase-win.png" Type="Document" URL="../LabVIEW Project Plugin/toolbar-addnewcase-win.png"/>
+			<Item Name="toolbar-addnewsuite-mac.png" Type="Document" URL="../LabVIEW Project Plugin/toolbar-addnewsuite-mac.png"/>
+			<Item Name="toolbar-addnewsuite-win.png" Type="Document" URL="../LabVIEW Project Plugin/toolbar-addnewsuite-win.png"/>
+			<Item Name="toolbar-open-mac.png" Type="Document" URL="../LabVIEW Project Plugin/toolbar-open-mac.png"/>
+			<Item Name="toolbar-open-win.png" Type="Document" URL="../LabVIEW Project Plugin/toolbar-open-win.png"/>
+			<Item Name="toolbar-runall-mac.png" Type="Document" URL="../LabVIEW Project Plugin/toolbar-runall-mac.png"/>
+			<Item Name="toolbar-runall-win.png" Type="Document" URL="../LabVIEW Project Plugin/toolbar-runall-win.png"/>
+			<Item Name="VI Icons.xcf" Type="Document" URL="../LabVIEW Project Plugin/VI Icons.xcf"/>
+			<Item Name="VI Tester Project Integration.aliases" Type="Document" URL="../LabVIEW Project Plugin/VI Tester Project Integration.aliases"/>
+			<Item Name="VI Tester Project Integration.lvlps" Type="Document" URL="../LabVIEW Project Plugin/VI Tester Project Integration.lvlps"/>
+			<Item Name="VI Tester Project Integration.lvproj" Type="Document" URL="../LabVIEW Project Plugin/VI Tester Project Integration.lvproj"/>
+			<Item Name="VITester Toolbar Icon Paths.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester Toolbar Icon Paths.vi"/>
+			<Item Name="VITester.ini" Type="Document" URL="../LabVIEW Project Plugin/VITester.ini"/>
+			<Item Name="VITester_Global_Init.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Global_Init.vi"/>
+			<Item Name="VITester_Global_Interface.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Global_Interface.vi"/>
+			<Item Name="VITester_Global_OnCommand.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Global_OnCommand.vi"/>
+			<Item Name="VITester_Global_OnUpdateCommand.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Global_OnUpdateCommand.vi"/>
+			<Item Name="VITester_Item_Init.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Item_Init.vi"/>
+			<Item Name="VITester_Item_Interface.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Item_Interface.vi"/>
+			<Item Name="VITester_Item_NotifyChanged.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Item_NotifyChanged.vi"/>
+			<Item Name="VITester_Item_OnCommand.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Item_OnCommand.vi"/>
+			<Item Name="VITester_Item_OnPopupMenu.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Item_OnPopupMenu.vi"/>
+			<Item Name="vitester_project_provider.log" Type="Document" URL="../LabVIEW Project Plugin/vitester_project_provider.log"/>
+			<Item Name="vitester_project_provider.ogbld" Type="Document" URL="../LabVIEW Project Plugin/vitester_project_provider.ogbld"/>
+			<Item Name="vitester_project_provider.ogpb" Type="Document" URL="../LabVIEW Project Plugin/vitester_project_provider.ogpb"/>
+			<Item Name="VITester_Provider_InitItems.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Provider_InitItems.vi"/>
+			<Item Name="VITester_Provider_Interface.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Provider_Interface.vi"/>
+			<Item Name="VITester_Provider_NotifyChanged.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Provider_NotifyChanged.vi"/>
+			<Item Name="VITester_Provider_OnCommand.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Provider_OnCommand.vi"/>
+			<Item Name="VITester_Provider_OnPopupMenu.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Provider_OnPopupMenu.vi"/>
+			<Item Name="VITester_Provider_OnUpdateCommandBegin.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Provider_OnUpdateCommandBegin.vi"/>
+			<Item Name="VITester_Provider_Shutdown.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Provider_Shutdown.vi"/>
+			<Item Name="VITester_Provider_Startup.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester_Provider_Startup.vi"/>
+			<Item Name="VITester - VI Tree.vi" Type="VI" URL="../LabVIEW Project Plugin/VITester - VI Tree.vi"/>
+		</Item>
 		<Item Name="Libraries" Type="Folder">
 			<Item Name="GraphicalTestRunner.lvlib" Type="Library" URL="../User Interfaces/Graphical Test Runner/Graphical Test Runner Support/GraphicalTestRunner.lvlib"/>
 			<Item Name="VITesterUtilities.lvlib" Type="Library" URL="../Libraries/VITesterUtilities.lvlib"/>
@@ -712,6 +765,14 @@
 				<Item Name="OGPM Package Spec Dependencies__ogpb_api.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPM Package Spec Dependencies__ogpb_api.ctl"/>
 				<Item Name="OGPM Package Dependency Cluster__ogpb_api.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPM Package Dependency Cluster__ogpb_api.ctl"/>
 				<Item Name="OGPB Directory__ogpb_api.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/ogpb_api/ogpb_api.llb/OGPB Directory__ogpb_api.vi"/>
+				<Item Name="Convert File Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension__ogtk.vi"/>
+				<Item Name="Convert File Extension (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (Path)__ogtk.vi"/>
+				<Item Name="Convert File Extension (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (String)__ogtk.vi"/>
+				<Item Name="VI Library__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/VI Library__ogtk.vi"/>
+				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
+				<Item Name="Build Application from Build File API__ogb_api.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/builder_api/ogb_api.llb/Build Application from Build File API__ogb_api.vi"/>
+				<Item Name="OGB Directory__ogb_api.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/builder_api/ogb_api.llb/OGB Directory__ogb_api.vi"/>
 			</Item>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -719,6 +780,21 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Global_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Global_Interface.ctl"/>
+			<Item Name="mxLvMenuItem.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvMenuItem.ctl"/>
+			<Item Name="mxLvSetPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetPopupMenu.vi"/>
+			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
+			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
+			<Item Name="mxLvDebugDisplayCaller.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvDebugDisplayCaller.vi"/>
+			<Item Name="mxLvErrorHandler.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvErrorHandler.vi"/>
+			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
+			<Item Name="mxLvChangeType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvChangeType.ctl"/>
+			<Item Name="Provider_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Provider_Interface.ctl"/>
+			<Item Name="mxLvSetToolbar.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetToolbar.vi"/>
+			<Item Name="mxLvSetMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetMenu.vi"/>
+			<Item Name="mxLvAddIconOverlays.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvAddIconOverlays.vi"/>
+			<Item Name="mxLvOverlayAlias.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvOverlayAlias.ctl"/>
+			<Item Name="mxLvGetProjectRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetProjectRef.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test Application" Type="EXE">
