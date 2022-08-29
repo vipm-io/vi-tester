@@ -1,0 +1,15 @@
+# This is the list of VI Tester's significant contributors.
+#
+# This does not necessarily list everyone who has contributed code,
+# especially since many employees of one corporation may be contributing.
+# To see the full list of contributors, see the revision history in
+# source control.
+# 
+# Names should be added to the list like so:
+# Name <email address> area(s)
+
+JKI <info@jki.net>
+Jim Kring <jim.kring@gmail.com> Built the initial prototype, Current Maintainer
+Omar Mussa <odmussa@gmail.com> Initial team to ship public version, Long-time Maintainer
+Ivan Yakushchenko @kosist Contributor of Various Ideas, Fixes, and Features
+Sam Sharp <sam@mediamongrels.com> Fixes to API for better lvclass support
