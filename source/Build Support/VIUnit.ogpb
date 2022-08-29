@@ -1,23 +1,23 @@
 [Package Name]
 Name=jki_labs_tool_vi_tester
-Version=3.1.0.295
+Version=4.0.0.296
 Release=1
 
 [Description]
-Description="JKI VI Tester is a unit test framework for LabVIEW based on xUnit test framework patterns.\0A\0A-= Release Notes =-\0A- [NEW #35] Upgraded sources to LabVIEW 2013\0A- [FIX #27] Sort Recent Files by time relevance\0A- [NEW #28] Template Tests Should Have Compiled Code Seperated\0A- [FIX #34] Some reference types lost when passed from setup to test VI\0A- [NEW #36] Separate compiled source on all VIs\0A- [NEW #38] Allow skipping tests from setUp.vi - tests will now be skipped if skip.vi is called inside setUp.vi\0A- [FIX #39] Some reference types lost when created in TestSuite.lvclass:setUp.vi"
-Summary="JKI VI Tester"
+Description="VI Tester is a unit test framework for LabVIEW based on xUnit test framework patterns.\0A\0A-= Release Notes =-\0A- [NEW] Upgraded sources to LabVIEW 2017"
+Summary="VI Tester"
 License=BSD
-Copyright="2009-2019 JKI. All Rights Reserved."
-Distribution=JKI
+Copyright="2009-2022 VI Tester Contributors. All Rights Reserved."
+Distribution=vipm.io
 Icon=icon.bmp
-Vendor=JKI
-URL=https://github.com/JKISoftware/JKI-VI-Tester
-Packager=info@jki.net
+Vendor=vipm.io
+URL=https://github.com/vipm-io/vi-tester
+Packager=vipm.io
 
 [Platform]
-Exclusive_LabVIEW_Version=>=13
+Exclusive_LabVIEW_Version=>=17
 Exclusive_LabVIEW_System=ALL
-Exclusive_OS="Windows NT>=5"
+Exclusive_OS=ALL
 
 [Script VIs]
 Source Dir=""
@@ -116,4 +116,3 @@ Target Dir=<resource>/Framework/Providers/GProviders
 Replace Mode=Always
 Num Files=1
 File 0=VITester.ini
-
