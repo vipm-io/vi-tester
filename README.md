@@ -1,3 +1,5 @@
+[![Image](https://www.vipm.io/package/jki_labs_tool_vi_tester/badge.svg?metric=installs)](https://www.vipm.io/package/jki_labs_tool_vi_tester/) [![Image](https://www.vipm.io/package/jki_labs_tool_vi_tester/badge.svg?metric=stars)](https://www.vipm.io/package/jki_labs_tool_vi_tester/)
+
 *Do you have VI Tester or LabVIEW unit testing questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [VI Tester Community Discussion Forums](https://forums.jki.net/forum/51-vi-tester/).*
 
 ![2017-04-29_10-50-13](https://cloud.githubusercontent.com/assets/381432/25557623/1c231a44-2cca-11e7-8c5f-a83363bbe8d0.png)
